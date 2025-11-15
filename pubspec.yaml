@@ -1,0 +1,19 @@
+name: pulsebridge
+description: Voice + Motion → BPM → Watch Haptic
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sensors_plus: ^5.0.0
+  just_audio: ^0.9.38
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/pulse.wav
